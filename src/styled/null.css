@@ -35,4 +35,13 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*--------------------*/
+/*--------Шрифт------------*/
+body{
+	font-family: 'VT323', monospace;
+}
+h2{
+	font-family: 'Press Start 2P', cursive;
+}
+p{
+	font-family: 'VT323', monospace;
+}

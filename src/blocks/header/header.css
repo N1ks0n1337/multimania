@@ -1,6 +1,7 @@
 header{
     background-color: #041d2d;
     padding-bottom: 20px;
+    
 }
 .header__container{
     width: 100vw;
@@ -70,11 +71,7 @@ header{
 
     }
 }
-@media(max-width: 765px) {
-    .btn__item{
-        margin: 10px;
-    }
-}
+
 @media(max-width: 751px) {
     .header__btn-group{
         margin-top: 170px;

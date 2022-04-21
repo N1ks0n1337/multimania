@@ -10,25 +10,25 @@ const Footer = () => {
   return (
     <Container>
       <Wrapper>
-        <FooterMenuItems>
+        <FooterMenuItems data-aos="fade-up">
           <FooterMenuItem>About</FooterMenuItem>
           <FooterMenuItem>Roadmap</FooterMenuItem>
           <FooterMenuItem>Mint</FooterMenuItem>
           <FooterMenuItem>Claim free NFT</FooterMenuItem>
           <FooterMenuItem>Read Whitepaper</FooterMenuItem>
         </FooterMenuItems>
-        <SubMenuWrapper>
+        <SubMenuWrapper data-aos="fade-up">
         <SubMenuItems>
           <SubMenuItem>Terms and Conditions</SubMenuItem>
           <SubMenuItem>Terms of Service (P&K)</SubMenuItem>
         </SubMenuItems>
         </SubMenuWrapper>
-        <FooterIcon>
+        <FooterIcon data-aos="fade-up">
           <BtnWrapper><Btn theme='icon'><img style={{width : '22px'}} src={Sea}/></Btn></BtnWrapper>
           <BtnWrapper><Btn theme='icon'><img style={{width : '22px'}} src={Twitter}/></Btn></BtnWrapper>
           <BtnWrapper><Btn theme='icon'><img style={{width : '22px'}} src={Discord}/></Btn></BtnWrapper>
         </FooterIcon>
-        <FooterLogo>
+        <FooterLogo data-aos="fade-up">
         <FooterLogoImg src={Logo}/>
         </FooterLogo>
       </Wrapper>

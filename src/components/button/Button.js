@@ -1,6 +1,7 @@
 import React, { Children } from 'react';
 import styled from 'styled-components';
 import alert from '../../image/icon/alert.svg'
+import 'animate.css';
 
 const theme = {
     pink: {

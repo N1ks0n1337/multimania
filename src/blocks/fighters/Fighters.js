@@ -5,6 +5,10 @@ import coin from '../../image/Coin.png';
 import Title from '../../components/title/Title';
 import question from '../../image/Que.png';
 import SubTitle from '../../components/subTitle/SubTitle'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Fighters = () => {
     return(
@@ -12,14 +16,14 @@ const Fighters = () => {
           <BackgroundImg>
             <Wrapper>
                 <WrapperFighters>
-                    <Title>Fighters</Title>
+                    <Title data-aos="zoom-in">Fighters</Title>
                     <FighterBlockYang>
                       <FighterBlockImgYang>
-                        <FighterImg src={yang}/>
+                        <FighterImg src={yang} data-aos="fade-right"/>
                       </FighterBlockImgYang>
-                      <FighterBlockDiscription>
+                      <FighterBlockDiscription data-aos="fade-left">
                         <FighterSupplyText>Supply: 5000</FighterSupplyText>
-                        <FighterDiscriptionText>
+                        <FighterDiscriptionText >
                         One of the first fighters in Nexus. Yang is a Chinese fighter from Shanghai who always wanted to be the best in each martial art. He is strong and fast enough to call himself a master. He has got a younger sister, Ling Ling, who hates him because he left dojo when she was young
                         </FighterDiscriptionText>
                         <FighterValue>
@@ -33,7 +37,7 @@ const Fighters = () => {
                       </FighterBlockDiscription>
                     </FighterBlockYang>
                     <FighterBlockLing>
-                      <FighterBlockDiscription>
+                      <FighterBlockDiscription data-aos="fade-right">
                         <FighterSupplyText>Supply: 5000</FighterSupplyText>
                         <FighterDiscriptionText>
                         Second fighter entered Nexus. Ling Ling is a Yang’s younger sister. After he left dojo when Ling Ling was only 6 years old, she suffered in trainings of secretive kill martial art. She wants to get stronger only for one mission - revenge brother
@@ -48,16 +52,16 @@ const Fighters = () => {
                         </FighterValue>
                       </FighterBlockDiscription>
                       <FighterBlockImgLing>
-                        <FighterImg src={ling}/>
+                        <FighterImg src={ling} data-aos="fade-left" />
                       </FighterBlockImgLing>
                     </FighterBlockLing>
                 </WrapperFighters>
                 <KnowMore>
-                  <ImgWrapper>
+                  <ImgWrapper data-aos="fade-up">
                     <KnowMoreImg src={question}></KnowMoreImg>
                     <SubTitle>Want to know more?</SubTitle>
                   </ImgWrapper>
-                  <BtnWrapper>
+                  <BtnWrapper data-aos="fade-up">
                     <Button theme='pink'>Read Whitepaper</Button>
                   </BtnWrapper>
                 </KnowMore>

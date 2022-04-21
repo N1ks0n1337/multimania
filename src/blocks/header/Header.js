@@ -7,22 +7,32 @@ import SubTitle from '../../components/subTitle/SubTitle'
 import Title from '../../components/title/Title'
 import background from './backgroundHeader.png'
 import './header.css'
+import styled, {keyframes} from 'styled-components'
+
+
+
+
+const HeaderItem = styled.div`
+    @media(max-width: 765px) {
+    margin: 10px;
+}
+`
 
 function Header() {
   return (
     <header style={{ backgroundImage: `url(${background})`, backgroundRepeat  : 'no-repeat', backgroundSize: 'contain', width: '100%', overflow: 'hidden'}} className='header'>
         <Navbar/>
         <div className="header__container">
-        <div className="header__btn-group">
-          <div className="btn__item">
+        <div data-aos="zoom-in" className="header__btn-group">
+          <HeaderItem>
           <BtnNFT className='text'>Claim free NFT</BtnNFT>
-          </div>
-          <div className="btn__item">
+          </HeaderItem>
+          <HeaderItem>
            <BtnMint className='text'>Mint</BtnMint>
-          </div>
-          <div className="btn__item">
+          </HeaderItem>
+          <HeaderItem>
           <Btn className='text' theme ='purple'>Read Whitepaper</Btn>
-          </div>
+          </HeaderItem>
         </div>
         </div>
     </header>

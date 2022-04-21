@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import backgroundOut from './backgroundOut.png'
 
+
 export const Container = styled.div`
     width: 100%;
     background-color: #041d2d;
@@ -72,8 +73,10 @@ export const Text = styled.p`
         width: 90%;
         font-size: 18px;
     }
+
 `
 export const Background = styled.div`
     margin-top: -10%;
+
 `
 

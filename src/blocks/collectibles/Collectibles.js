@@ -18,34 +18,34 @@ const Collectibles = () => {
         <Wrapper>
           <Title> Collectibles </Title>
             <CollectiblesItems>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={FirstHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={SecHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={ThHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={FrHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={FifHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={SixHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={SevHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={EigHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={NinHero}/>
               </CollectiblesItemImg>
-              <CollectiblesItemImg>
+              <CollectiblesItemImg data-aos="zoom-in-up">
                 <CollectiblesImg src={TenHero}/>
               </CollectiblesItemImg>              
             </CollectiblesItems>

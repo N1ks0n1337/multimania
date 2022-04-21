@@ -19,22 +19,22 @@ const Navbar = () => {
                 {showMobileMenu ? <FaTimes/> : <FaBars/>}
             </MobileIcon>
             <Menu open={showMobileMenu}>
-            <LogoContainer>
+            <LogoContainer data-aos="fade-down">
                 <img src={Logo}/>
             </LogoContainer>
 
-                <MenuItem>
+                <MenuItem data-aos="fade-down">
                         <MenuItemLink>
                             About
                         </MenuItemLink>
                 </MenuItem>
-                <MenuItem>
+                <MenuItem data-aos="fade-down">
                     <MenuItemLink>
                         Roadmap
                     </MenuItemLink>
                 </MenuItem>
                 <Social>
-                <MenuItem>
+                <MenuItem data-aos="fade-down">
                     <MenuItemLink>
                         <Btn theme='icon'><img style={{width : '22px'}} src={Sea}/></Btn>
                         <Btn theme='icon'><img style={{width : '22px'}} src={Twitter}/></Btn>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </MenuItemLink>
                 </MenuItem>
                 </Social>
-                <MenuItem>
+                <MenuItem data-aos="fade-down">
                 <MenuItemLink>
                         <Btn theme='pink'>Connect Wallet</Btn>
                 </MenuItemLink>

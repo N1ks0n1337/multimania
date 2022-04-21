@@ -18,7 +18,6 @@ function App() {
       <OurStory/>
       <Fighters/>
       <Collectibles/>
-      <Works/>
       <Roadmap/>
       <LearnMore/>
       <Footer/>

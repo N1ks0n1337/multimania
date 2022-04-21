@@ -1,8 +1,10 @@
 import styled from "styled-components";
+
 export const Container = styled.div`
     width: 100%;
     height: 82px;
     padding-top: 20px;
+
 `
 
 
@@ -28,6 +30,7 @@ export const Menu = styled.ul`
     height: 100%;
     display: flex;
     justify-content: space-between;
+    z-index: 99998;
     @media screen and (max-width: 765px){
         background-color: #000B2C;
         position: fixed;
@@ -104,7 +107,7 @@ export const MobileIcon = styled.div`
         svg{
             position: fixed;
             right: 10px;
-            z-index: 100;
+            z-index: 99999;
             fill: #A2275C;
             margin-right: 0.5rem;
             width: 25px;

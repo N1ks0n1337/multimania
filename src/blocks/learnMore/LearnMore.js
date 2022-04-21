@@ -7,9 +7,10 @@ import rightStars from '../../image/RightStars.png';
 const LearnMore = () => {
   return (
     <Container>
-      <Wrapper>
+      <Wrapper data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
          <Title>Learn more</Title>
-         <LearnContainer>
+         <LearnContainer >
            <LearnItemRight>
            <Text>Want to join us? Get in the Discord and be a part of our community!</Text>
            <StarsRight src={rightStars}/>
